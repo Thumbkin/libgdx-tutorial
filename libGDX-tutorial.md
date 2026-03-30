@@ -1,0 +1,48 @@
+# Java - Starting with game development using LibGDX
+
+Hello and great that you have decided to start coding games using Java. This guide/tutorial will introduce you into the most important basics for 2D and 3D gaming and help you understand the concepts. Please not that this guide is not a place to learn Java itself, this guide expect a good knowledge of Java itself. So if you are net yet familiar with concepts as loops, methods, classes, constructors, packages, inheritance, polymorphism, etc ... I suggest you start with improving your overall knowledge of Java itself.
+
+To help us in developing our code this guide will use a framework, **libGDX** (https://libgdx.com), so we don't have to learn raw OpenGL but can access the functionality more easily. If you want to learn more how rendering realy works or how you can access all features at its core, you better look for a native OpenGL guide. Another reason why libGDX is a good choice, is that it provides cross-platform access and easily lets us guild an executable JAR for Windows, Linux or Mac, port application as runnable website and even a mobile application for Android or iOS.
+
+However since development for iOS is not free and exporting the application as a website is not out-of-the-box, we will focus on this guide for an application that runs through a JAR and Android app.
+
+This guide, and most assets used in it, is largely based on the wiki pages of libGDX itself (https://libgdx.com/wiki/). So all credits to them, I have just updated, rearranged or extended the code where needed to meet the latest libGDX and JDK version that was used in this guide. They also have great community who can help should you have any problems while using the framework.
+
+At the end of each chapter you will be able to find the full code source in the guide, but also a link to the complete project at that point so you can run that should your code not match. Keep in mind that this guide is by no means a full tutorial on all possibilities but it will merely demonstrate the principles. It is up to you to grasp these and then expand your knowledge by experimenting on your own.
+
+## Content
+
+- [Introduction](#Introduction)
+  - [Current versions used in guide](#Current-versions-used-in-guide)
+  - [Setting-up environment](#Setting-up environment)
+
+## Introduction
+
+### Current versions used in guide
+
+- **Android**: SDK 16 (https://developer.android.com/about/versions/16) [^1]
+- **Java**: JDK 17 (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) [^2]
+- **IDE**: IntelliJ IDEA 2026.1 (https://www.jetbrains.com/idea/)
+
+[^1]: You do not have to download the SDK from the website itself,  we will download it using IntelliJ in [Setting-up environment](#Setting-up environment). If you do not want to develop for Android, you can offcourse choose to skip this. Make sure when you create a new project, that Android is not added as core platform.
+[^2]: Instead of installing the JDK native in your OS, you can also opt to use the built-in JDKs in IntelliJ. This will be pulled in when running the gradle build file.
+
+### Setting-up environment
+
+If you do not want to use the JDK inside IntelliJ itself, make sure to install the JDK native in your OS providing the link above.
+First off all, install the android sdk-platform tools
+To access Android in IntelliJ, you have to install the plugin (https://www.jetbrains.com/help/idea/managing-plugins.html).
+In **IntelliJ**, open the marketplace for plugins and search for the **Android** plugin. Install it and restart your IDE after.
+[INSERT IMAGE HERE]
+
+Once restarted open the settings again. Under **Languages & Frameworks** you should know see ** Android SDK Updater**
+[INSERT IMAGE HERE]
+Selec the correct folder where you previously installed the android SDK 
+Select the different SDKs you want to use, in this guide we only use **Android 16 ("Baklava") 36.0**
+
+### Creating a new project
+
+### Building the application
+
+### Distributing the application
+
