@@ -24,5 +24,5 @@ This repository contains the following structure:
   - Projectfiles: Contains a zip of the project when starting the chapter and a zip when finished with the chapter
   - Builds: contains an executable JAR and apk for the chapter
 
-- libGDX-tutorial.me: the tutorial to teach you about libGDX
-- README.md: this readme
+- [libGDX-tutorial.md](./libGDX-tutorial.md): the tutorial to teach you about libGDX
+- [README.md](./README.md): this readme
