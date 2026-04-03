@@ -18,7 +18,7 @@ At the end of each chapter you will be able to find the full code source in the 
 - Gradle v8.16.0 (https://gradle.org/)[^1]
 - gdx-liftoff v1.14.08 (https://github.com/libgdx/gdx-liftoff/releases/tag/v1.14.0.8)
 
-[^1]:Note that you do not have to download and install these packages. They are either already bundeled with IntelliJ or installed using the IDE itself.
+[^1]:Note that you do not have to download and install these packages. They are either already bundeled within IntelliJ or installed using the IDE itself.
 
 ## Content
 
