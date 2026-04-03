@@ -37,7 +37,7 @@ Make sure you have the **IntelliJ IDEA** IDE installed, see link above.
 
 To access Android in IntelliJ, you first have to install the plugin (https://www.jetbrains.com/help/idea/managing-plugins.html).
 In **IntelliJ**, open the **settings**. Then select **plugins** in the left menu and select the **marketplace** tab on the right. Search for the **Android** plugin, install it and restart your IDE after.
-![setup-plugin-android](.\tutorial-markdown\introduction\setup-plugin-android.png)
+![setup-plugin-android](./tutorial-markdown/introduction/setup-plugin-android.png)
 
 Once restarted open the settings again. Under **Languages & Frameworks** you should now see **Android SDK Updater**.![settings-android-sdk](.\tutorial-markdown\introduction\settings-android-sdk.png)
 Click on **edit** and IntelliJ should open **SDK Components Setup** asking you to install the **Android SDK** and **Android SDK platform 16 ("Baklava") 36.0**. Change the installation directory if you want and keep clicking next to allow the SDK to be installed.
@@ -46,7 +46,7 @@ Click on **edit** and IntelliJ should open **SDK Components Setup** asking you t
 
 Once the installation is completed you should return to the settings screen. On this screen the **Android SDK Location** should be filled in correctly and you should also see the box checked next to **Android 16.0**.
 
-![settings-android-sdk-complete](.\tutorial-markdown\introduction\settings-android-sdk-complete.png)
+![settings-android-sdk-complete](./tutorial-markdown/introduction/settings-android-sdk-complete.png)
 
 #### Java JDK
 
@@ -58,7 +58,7 @@ The JDK will be pulled and added to our project once we run the gradle file prov
 
 If you successfully managed to install IntelliJ IDEA and the Android plugin with the corresponding SDK, it is time to create our first project. The easiest way to create a new project for libgdx is using the **gdx-liftoff** tool (See link above). Open the tool and you see a similar screen:
 
-![gdx-liftoff-start](.\tutorial-markdown\introduction\gdx-liftoff-start.png)
+![gdx-liftoff-start](./tutorial-markdown/introduction/gdx-liftoff-start.png)
 
 The following fields have to be filled in:
 
@@ -77,11 +77,11 @@ The following fields have to be filled in:
 
 Before you click **generate** your screen should look like this (Android is enabled):
 
-![gdx-liftoff-end](.\tutorial-markdown\introduction\gdx-liftoff-end.png)
+![gdx-liftoff-end](./tutorial-markdown/introduction/gdx-liftoff-end.png)
 
 You can now choose to open your project straight in IntelliJ IDEA and close the gdx-liftoff tool. Once you opened the project **gradle** should automatically start download any missing dependencies like JDK 21. After the initial loading you should get the following view in IntelliJ IDEA:
 
-![intellij-hello-world](.\tutorial-markdown\introduction\intellij-hello-world.png)
+![intellij-hello-world](./tutorial-markdown/introduction/intellij-hello-world.png)
 
 ### Building and running the application
 
@@ -92,11 +92,11 @@ Each of the methods involves that you run the gradle task once via the gradle me
 
 If you want to run the project as a desktop application, you have to run the **gradle task** lwjgl3 => Tasks => application => run by double clicking it or right clicking and selecting **Run ...** 
 
-![gradle-application-run](.\tutorial-markdown\introduction\gradle-application-run.png)
+![gradle-application-run](./tutorial-markdown/introduction/gradle-application-run.png)
 
 If all goes well you should see a screen displaying the libgdx logo as follow:
 
-![hello-world-start](.\tutorial-markdown\introduction\hello-world-start.png)
+![hello-world-start](./tutorial-markdown/introduction/hello-world-start.png)
 
 You can still go trough gradle window to launch the application later if you want but its faster to select it from the runtime configuration drop down and hitting the green arrow on top of the IDE.
 
